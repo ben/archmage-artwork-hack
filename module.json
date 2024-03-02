@@ -1,0 +1,29 @@
+{
+  "id": "archmage-artwork-hack",
+  "name": "archmage-artwork-hack",
+  "title": "Artwork hack",
+  "description": "A hacky module that allows the 13th Age system to inject artwork mappings for the PF2E artwork module.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Ben Straub",
+      "url": "https://ben.straub.cc",
+      "email": "ben@straub.cc",
+      "discord": "benstraub",
+      "reddit": "u/ben_straub",
+      "twitter": "@benstraub"
+    }
+  ],
+  "compatibility": {
+    "minimum": 11,
+    "verified": 11
+  },
+  "packs": [],
+  "flags": {
+    "archmage-artwork-hack": {
+      "archmage-art": "systems/archmage/map-archmage.json"
+    }
+  },
+  "manifest": "https://gitlab.com/encounterlibrary/archmage-artwork-hack/-/raw/main/module.json",
+  "download": "https://gitlab.com/encounterlibrary/archmage-artwork-hack/-/raw/main/archmage-artwork-hack.zip"
+}
