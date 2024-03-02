@@ -1,7 +1,7 @@
 {
   "id": "archmage-artwork-hack",
   "name": "archmage-artwork-hack",
-  "title": "Artwork hack",
+  "title": "13th Age + PF2E token art hack",
   "description": "A hacky module that allows the 13th Age system to inject artwork mappings for the PF2E artwork module.",
   "version": "1.0.0",
   "authors": [
