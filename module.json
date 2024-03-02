@@ -24,6 +24,6 @@
       "archmage-art": "systems/archmage/map-archmage.json"
     }
   },
-  "manifest": "https://gitlab.com/encounterlibrary/archmage-artwork-hack/-/raw/main/module.json",
-  "download": "https://gitlab.com/encounterlibrary/archmage-artwork-hack/-/raw/main/archmage-artwork-hack.zip"
+  "manifest": "https://raw.githubusercontent.com/ben/archmage-artwork-hack/main/module.json",
+  "download": "https://raw.githubusercontent.com/ben/archmage-artwork-hack/main/archmage-artwork-hack.zip"
 }
