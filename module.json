@@ -19,6 +19,9 @@
     "verified": 11
   },
   "packs": [],
+  "esmodules": [
+    "index.js"
+  ],
   "flags": {
     "archmage-artwork-hack": {
       "archmage-art": "systems/archmage/map-archmage.json"
