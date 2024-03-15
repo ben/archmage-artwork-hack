@@ -93,7 +93,7 @@ export class MonsterArtApp extends Application {
       new FilePicker({
         type: 'image',
         current: 'modules/pf2e-tokens-bestiaries/tokens/',
-        displayMode: 'thumbs',
+        displayMode: 'images',
         callback: img => {
           monster.newMapEntry = {
             token: {

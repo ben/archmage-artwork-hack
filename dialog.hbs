@@ -1,7 +1,7 @@
 <form class="{{cssClass}} archmage-vue" autocomplete="off">
   <div class="flexrow">
     <button class="copy-new-yaml">Copy new YAML</button>
-    <input type="text" name="filter" class="monster-filter" value="{{filter}}">
+    <input type="text" name="filter" class="monster-filter" value="{{filter}}" autofocus>
   </div>
   <div class="flexcol">
     <table>
@@ -14,24 +14,15 @@
         {{#each monsters}}
         <tr class="monster-row" data-name="{{name}}">
           <td>{{name}}</td>
-          {{#if mapEntry}}
-          <td>
-            <img data-tooltip='<img src="{{mapEntry.actor.img}}">' height="50px" src="{{mapEntry.actor.img}}">
-            &times; {{mapEntry.actor.scale}}
-          </td>
-          <td>
-            <img data-tooltip='<img src="{{mapEntry.token.img}}">' height="50px" src="{{mapEntry.token.img}}">
-            &times;{{mapEntry.token.scale}}
-          </td>
-          {{else}}
           <td>
             <button class="choose-artwork" data-actor-id="{{_id}}">Choose artwork</button>
           </td>
+          {{#if newMapEntry}}
           <td>
-            {{#if newMapEntry}}
+            <img data-tooltip='<img src="{{newMapEntry.actor}}">' height="50px" src="{{newMapEntry.actor}}">
+          </td>
+          <td>
             <img data-tooltip='<img src="{{newMapEntry.token.img}}">' height="50px" src="{{newMapEntry.token.img}}">
-            &times;{{newMapEntry.token.scale}}
-            {{/if}}
           </td>
           {{/if}}
         </tr>
